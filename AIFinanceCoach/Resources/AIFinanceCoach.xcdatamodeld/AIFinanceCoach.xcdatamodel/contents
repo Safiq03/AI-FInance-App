@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedVersion="1" userDefinedModelVersion="" systemVersion="11A511" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedMetadataVersion="">
+    <entity name="Expense" syncable="YES" representedClassName="Expense">
+        <attribute name="amount" optional="NO" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="category" optional="NO" attributeType="String" usesScalarValueType="NO"/>
+        <attribute name="date" optional="NO" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="id" optional="NO" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="notes" optional="YES" attributeType="String" usesScalarValueType="NO"/>
+    </entity>
+</model>
